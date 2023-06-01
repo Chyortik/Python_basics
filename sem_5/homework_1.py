@@ -14,5 +14,5 @@ def file_info(file_path):
     return path, name, extension
 
 
-file_p = '/Users/dima4/python_basics/Sem_5/README.md'
+file_p = '/Users/dima4/python_basics/sem_5/README.md'
 print(file_info(file_p))
