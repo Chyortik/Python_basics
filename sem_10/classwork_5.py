@@ -89,11 +89,3 @@ class Fish(Animal):
         self._predator = predator
 
 
-if __name__ == '__main__':
-    fish = Fish(True, 'Немо', 'Рыба-меч')
-    cat = Cat(False, 'Барсик', 'Персидский кот')
-    dog = Dog('Шарик', 'Tакса')
-    dog.commands = ['Рядом!', 'Фас!']
-    fish.get_uniq_attr()
-    cat.get_uniq_attr()
-    dog.get_uniq_attr()

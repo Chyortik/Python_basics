@@ -46,7 +46,3 @@ class Rectangle:
         return self.__area
 
 
-if __name__ == '__main__':
-    new_rectangle = Rectangle(1, 2)
-    print(new_rectangle.perimetr)
-    print(new_rectangle.area)

@@ -20,8 +20,4 @@ class AnimalFabric:
         return types[animal_type.lower()]
 
 
-if __name__ == '__main__':
-    fabric = AnimalFabric()
-    animal_from_fabric = fabric.make_animal('dog', 'Шарик', 'Такса')
-    animal_from_fabric.commands = ['Рядом!', 'Фас!']
-    print(animal_from_fabric)
+

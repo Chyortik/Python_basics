@@ -42,12 +42,3 @@ class People:
     def full_name(self):
         print(f'Имя: {self.first_name}\nФамилия: {self.second_name}\nВозраст: {self.age}')
 
-
-if __name__ == '__main__':
-    man = People(first_name=input('Введите имя: '),
-                 second_name=input('Введите фамилию: '),
-                 age=int(input('Введите возраст: ')))
-
-    man.birthday()
-    print(f'{man.first_name} празднует день рождения, исполнилось {man.age}')
-    man.full_name()

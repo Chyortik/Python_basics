@@ -39,8 +39,4 @@ class Circle:
         return self.__square
 
 
-if __name__ == '__main__':
-    new_circle = Circle(int(input('Введите значение радиуса: ')))
-    print(f'Длина окружности = {round(new_circle.circle_long, 3)}')
 
-    print(f'Площадь окружности = {round(new_circle.area, 3)}')

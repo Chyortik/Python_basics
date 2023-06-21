@@ -37,18 +37,3 @@ class Worker(People):
             self.__secure_lvl = temp
         return self.__secure_lvl
 
-
-if __name__ == '__main__':
-    man = Worker(first_name=input('Введите имя: '),
-                 second_name=input('Введите фамилию: '),
-                 age=int(input('Введите возраст: ')))
-
-    # man.birthday()
-    # print(f'{man.first_name} празднует день рождения, исполнилось {man.age}')
-    # man.full_name()
-    # man.birthday()
-    # man.birthday()
-    # print(man.age)
-    man.full_name()
-    print(f'Идентификационный номер: {man.worker_id}')
-    print(f'Уровень доступа: {man.secure_lvl}')

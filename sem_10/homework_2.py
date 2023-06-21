@@ -82,13 +82,4 @@ class GenerateFileWithMultiplication:
                     f3.write(f'{text.upper()}, {round(res_mult)} \n')
 
 
-test1 = CreateFileWithNumbers(10, "test.txt")
-test1.numbers_file()
-print(test1.name)
 
-test2 = GenerateFileWithNames(10, "names.txt")
-test2.generate_names()
-print(test2.names)
-
-test3 = GenerateFileWithMultiplication(test1.name, test2.names, 'new_file.txt')
-test3.multiplying()
